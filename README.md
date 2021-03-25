@@ -3,3 +3,4 @@
 ## Recursos Utilizados
  - HTML5
  - CSS3
+ - FontAwesome
