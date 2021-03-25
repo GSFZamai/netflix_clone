@@ -1,17 +1,21 @@
+/*definição de variáveis css*/
 :root {
     --vermelho: #E50914;
     --preta: #141414;
 }
 
+/*css reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*base*/
 body {
     background-color: var(--preta);
     font-family:'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -36,4 +40,24 @@ header nav a {
 
 header nav a:hover {
     color: #FFF;
+}
+
+/*filmes*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-principal.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo {
+    font-size: 40px;
 }
