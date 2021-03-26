@@ -4,4 +4,4 @@
  - HTML5
  - CSS3
  - FontAwesome
- - Owl Carousel[http://teste.com]
+ - Owl Carousel
